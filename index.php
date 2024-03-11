@@ -13,7 +13,7 @@
 
     include("conecta.php");
 
-    $sql = "SELECT * FROM usuario";
+    $sql = "SELECT * FROM produto";
     //executa o select
     $resultado = mysqli_query($conexao, $sql);
 
