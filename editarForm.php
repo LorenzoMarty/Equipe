@@ -20,9 +20,9 @@
     $dados = mysqli_fetch_assoc($resultado);
     ?>
     <form action="editar.php" method="get">
-        <input type="text" name="email" value="<?php echo $dados['nome']; ?>">
-        <input type="text" name="senha" value="<?php echo $dados['qtd']; ?>">
-        <input type="hidden" name="id_usuario" value="<?php echo $dados['id_produto']; ?>">
+        <input type="text" name="nome" value="<?php echo $dados['nome']; ?>">
+        <input type="text" name="qtd" value="<?php echo $dados['qtd']; ?>">
+        <input type="hidden" name="id_produto" value="<?php echo $dados['id_produto']; ?>">
         <input type="submit" value="Enviar">
     </form>
 </body>

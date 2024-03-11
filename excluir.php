@@ -1,10 +1,10 @@
 <?php
 
-$idp = $_GET['id_produto'];
-
 include("conecta.php");
 
-$sql = "DELETE * FROM produto WHERE id_produto= '$idp'";
+$idp = $_GET['id_produto'];
+
+$sql = "DELETE * FROM produto WHERE id_produto= $idp";
 
 if (mysqli_query($conexao, $sql)) {
     echo "Arquivo enviado com sucesso!";
