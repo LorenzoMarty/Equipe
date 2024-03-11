@@ -22,8 +22,8 @@
     <tr>
     <strong>
       <th scope="col">Id</th>
-      <th scope="col">Email</th>
-      <th scope="col">Senha</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Quantidade</th>
       <th scope="col">Opções</th>
     </strong>
     </tr>';
