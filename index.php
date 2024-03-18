@@ -32,8 +32,8 @@
         echo "<td> " . $dados['id_produto'] . " </td>";
         echo "<td> " . $dados['nome'] . "</td>";
         echo "<td> " . $dados['qtd'] . "</td>";
-        echo "<td><a href='editarForm.php?id_produto=" . $dados['id_produto'] . "&nome=" . $dados['nome'] . "&qtd=" . $dados['qtd'] . "'>" . "<img src='settings.png' widht='20' height='20'" . "</a>";
-        echo " <a href='excluir.php?id_produto=" . $dados['id_produto'] . "'>" . "<img src='lixeira.png' widht='20' height='20'" . "</a></td>";
+        echo "<td><a href='editarForm.php?id_produto=" . $dados['id_produto'] . "&nome=" . $dados['nome'] . "&qtd=" . $dados['qtd'] . "'>" . "Editar" . "</a>";
+        echo " <a href='excluir.php?id_produto=" . $dados['id_produto'] . "'>" . "Excluir" . "</a></td>";
         echo '</tr>';
     }
     echo '</table>';
